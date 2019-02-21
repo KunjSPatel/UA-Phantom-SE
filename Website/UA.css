@@ -1,0 +1,112 @@
+body{
+  background-color: #EBEBEB;
+  /* background-color:  #ffffff; */
+  min-height: 100%;
+}
+html{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color:  #000000;
+  letter-spacing: 2px;
+  margin-left: 100px;
+  font-size: 18px;
+  padding-top: 35px;
+  float: right;
+}
+a:hover{
+  color: #DEC177;
+  text-decoration: none;
+
+}
+input{
+  letter-spacing: 2px;
+
+}
+#icon{
+  margin-top: 33px;
+
+  font-size: 35px
+}
+#icon:hover{
+  color:red;
+
+}
+#search{
+height: 50%;
+margin-top: 33px;
+margin-left: 20px
+}
+.nav{
+
+margin-top: 2%;
+text-decoration: none;
+color:  #000000;
+letter-spacing: 2px;
+margin-left: 0 2px;
+padding: 0;
+display: flex;
+justify-content: space-around;
+font-size: 18px;
+}
+h2{
+  float: right;
+  margin-top: 75px;
+  font-size: 50px;
+  transform: translate(-30%,80%);
+  transition:font-size 12s;
+}
+h4{
+  float: right;
+  margin-top: 75px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  transform: translate(90%, 450%);
+
+}
+p{
+  float: right;
+  margin-top: 75px;
+  font-size: 18px;
+  transform: translate(0%, -380%);
+
+}
+.container-fluid{
+  margin-top: 2%;
+}
+img{
+  height: 50%;
+  width: 50%;
+
+}
+#logo{
+  float: left;
+  width: 100px;
+
+}
+.shop{
+  float: right;
+  width: 15%;
+  height: 50px;
+  border-radius: 200px;
+  outline: none;
+  border: 0;
+  background-color: black;
+  color: #DEC177;
+    transform: translate(175%, -550%);
+}
+.shop:hover{
+background-color: #DEC177;
+color: #000000;
+
+}
+h1{
+  font-size: 200px;
+  float: right;
+  color: grey;
+  transform: translate(100%, -120%);
+  opacity: 0.1;
+  font-family: 'Raleway', sans-serif;
+
+}
